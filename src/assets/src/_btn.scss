@@ -1,0 +1,61 @@
+
+.btn{
+    display: inline-block;
+    line-height: 1.5;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: var(--transition);
+    width: max-content;
+}
+
+.btn-simple{
+    font-weight: 700;
+}
+
+.btx{
+    padding: 5px 10px;
+    font-weight: 500;
+    border: 2px solid var(--primary-color);
+}
+
+.btx:hover{
+    background-color: var(--primary-color);
+    color: black
+}
+
+.btn-simple:focus{
+    box-shadow: var(--focus);
+}
+
+.btn-primary{
+    padding: 5px 10px;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-primary:focus{
+    box-shadow: var(--focus);
+}
+
+.btn:hover{
+    opacity: 0.8;
+    transition: var(transition);
+}
+
+.btn-danger{
+    padding: 5px 10px;
+    background-color: var(--danger-color);
+    color: white;
+}
+.btn-danger:focus{
+    box-shadow: 0 0 0 2px var(--bs-white), 0 0 0 4px var(--danger-color);
+}
+
+
+

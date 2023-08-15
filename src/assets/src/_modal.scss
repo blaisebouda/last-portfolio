@@ -1,0 +1,19 @@
+.bg-modal{
+    background-color: rgba(#101010,  0.3);
+    z-index: 2;
+}
+
+.modal{
+    position: fixed;
+    height: max-content;
+    max-height: 90vh;
+    top: 50%; left: 50%; 
+    width: 90%;
+    transform: translate(-50%, -50%);
+    max-width: 900px;
+    background-color: var(--color-dark);
+    box-shadow: var(--boxshadow);
+    z-index: 3;
+    overflow-y: auto;
+    border-radius: 10px;
+}

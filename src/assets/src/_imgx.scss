@@ -1,0 +1,35 @@
+.fileImgxPrev{
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    border: var(--border);
+    display: grid;
+    transform: var(--transition);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.fileImgxPrev img{
+    position: relative;
+    height: 70px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    border: var(--border);
+    transform: var(--transition);
+    cursor: pointer;
+}
+
+@media screen  and (min-width: 400px) {
+
+    .fileImgxPrev{
+        grid-template-columns: repeat(5, 1fr) ;  
+    }
+ 
+}
+
+@media screen  and (min-width: 500px) {
+    .fileImgxPrev img{
+        height: 90px;
+    }
+ 
+}

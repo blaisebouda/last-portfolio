@@ -1,0 +1,50 @@
+//les variables
+:root {
+    --primary-color :#57b0fb;
+    --color-dark: #22282e;
+    --bs-dark-lg: #2e3a48;
+    --font-familly: poppins;
+    --border: 1px solid rgba(255, 255, 255, 0.1);
+    --focus: 0 0 0 2px #000, 0 0 0 4px var(--primary-color);
+    --btn-padding : 10px 20px;
+    --transition : all 0.3s ease-out;
+    --boxshadow: 0 8px 15px 0 rgba(0,0,0,0.15);
+    --danger-color: #dc3545;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: inherit;
+  text-decoration: none;
+}
+
+body{
+    font-family: var(--font-familly);
+    transition: var(--transition);
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-dark);
+    color: white;
+}
+
+@import 'src/style';
+@import 'src/general';
+@import 'src/aligne';
+@import 'src/btn';
+@import 'src/form';
+@import 'src/helpers';
+@import 'src/imgx';
+@import 'src/loader';
+@import 'src/animation';
+@import 'src/menu';
+@import 'src/modal';
+@import 'src/position';
+
+
+
+
+

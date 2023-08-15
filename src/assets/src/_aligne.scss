@@ -1,0 +1,48 @@
+
+.place-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    
+}
+
+.flex{
+    display: flex;
+}
+
+.j-end{
+    justify-content: end;
+}
+
+.j-center{
+    align-items: center;
+}
+
+.j-between{
+    justify-content: space-between;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+
+.t-c{
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+}
+
+.c-2{
+    grid-template-columns: 1fr 1fr;
+}
+
+.c-3{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.c-4{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
