@@ -1,21 +1,44 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import Index from '../views/Index.vue'
+import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router';
+import Index from '../views/Index.vue';
+import ResizeImages from '../views/ResizeImages.vue';
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(),
   routes: [
     {
       path: '/',
       name: 'home',
+      component: Index,
+    },
+    {
+      path: '/about',
+      component: Index
+    },
+    {
+      path: '/home',
+      component: Index
+    },
+    {
+      path: '/competence',
+      component: Index
+    },
+    {
+      path: '/technos',
+      component: Index
+    },
+    {
+      path: '/realisations',
+      component: Index
+    },
+    {
+      path: '/contact',
       component: Index
     },
     {
       path: '/resizeimages',
       name: 'resize',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/ResizeImages.vue')
+      component: ResizeImages,
+      
     }
   ]
 })

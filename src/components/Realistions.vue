@@ -29,7 +29,7 @@
                             <img src="/images/Vue.png" width="30" height="30" alt="">
                         </div>
                         <div class="des pt-10">Une solution qui vous permet de redimensionner les images et les afficher  coté client avant l'upload.</div>
-                        <div class="voir pt-10"><a class="btn br-25px btx" href="/resizeimages">En savoir plus</a></div>
+                        <div class="voir pt-10"><a class="btn br-25px btx" href="#resizeimages">En savoir plus</a></div>
                     </div>
                
                     <div class="card-r">
