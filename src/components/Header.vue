@@ -7,7 +7,7 @@ const active = ref(false)
 <template>
     <header class="flex j-center j-between" >
         <div>
-           <a class="center " href="#"><img src="/logo.png" width="45" alt=""></a>
+           <a class="center " href="#"><img src="/logo.png" width="40" alt=""></a>
         </div>
         <div :class="{'menu center active': active, 'menu center': !active}" @click="active =!active">
           <span></span>

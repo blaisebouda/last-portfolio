@@ -57,6 +57,7 @@ const valided =()=>{
       </form>
     </div>
   </div>
+  <p class="center p-20" ><a class="btn btn-simple c-g-10" href="https://github.com/BlaiseBouda/resizeImages.git"><Gitub/> Code source </a> </p>
   <Copy/>
 </template>
 
