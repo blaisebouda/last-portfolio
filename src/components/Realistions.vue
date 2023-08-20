@@ -28,8 +28,8 @@
                             <img src="/images/js.png" width="30" height="30" alt="">
                             <img src="/images/Vue.png" width="30" height="30" alt="">
                         </div>
-                        <div class="des pt-10">Une solution qui vous permet de redimensionner les images et les afficher  coté client avant l'upload.</div>
-                        <div class="voir pt-10"><a class="btn br-25px btx" href="#resizeimages">En savoir plus</a></div>
+                        <div class="des pt-10">Une bibliothèque qui vous permet de redimensionner les images et les afficher  coté client avant l'upload.</div>
+                        <div class="voir pt-10"><a class="btn br-25px btx" href="#resizeimages">Voir la démo</a></div>
                     </div>
                
                     <div class="card-r">
@@ -43,7 +43,7 @@
                             <img src="/images/Vue.png" width="30" height="30" alt="">
                         </div>
                         <div class="des pt-10">Met en evidence mes competences, mes techos utilisés et mes réalisaions.</div>
-                        <div class="voir pt-10"><a class="btn br-25px btx" href="#">En savoir plus</a></div>
+                        <div class="voir pt-10"><a class="btn br-25px btx" href="#">Voir</a></div>
                     </div>
             </div>
         </div>

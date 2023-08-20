@@ -67,7 +67,7 @@ header{
     gap: 30px;
     max-width: 900px;
     margin: auto;
-    grid-template-columns: repeat(auto-fit, minmax(300px ,1fr))
+    grid-template-columns: repeat(auto-fit, minmax(240px ,1fr))
 
 }
 
@@ -98,8 +98,13 @@ header{
 }
 
 .card-imgx{
-    width: 110px;
-    height: 110px;
+    width: 80px;
+    height: 90px;
+}
+.card-imgx .text{
+    font-size: 12px;
+    font-weight: 600;
+    color: silver;
 }
 
 .c-img div{
@@ -108,8 +113,8 @@ header{
 }
 
 .card-imgx div{
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
     margin: 0 auto;
 }
 
@@ -199,11 +204,25 @@ header{
 }
 .about .imgx{
     position: relative;
-    width: 300px;
-    height: auto;
+    width: 270px;
+    height: 280px;
     margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
    
 }
+
+.about .imgx{
+    position: relative;
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+   
+}
+
+
 .about .imgx::before{
     position: absolute;
     content: "";
@@ -211,15 +230,53 @@ header{
     height: 98%;
     background-color: var(--primary-color);
     z-index: -1;
-    border-radius: 50%;
   
 }
+
 .about img{
+    position: relative;
     width: 100%;
     height: auto;
     z-index: 1;
-    border-radius: 50%;
+    object-fit: contain;
+    bottom: -40px;
 }
+
+
+@media screen and (min-width: 360px) {
+    .about .imgx{
+        width: 270px;
+        height: 280px;
+    }
+
+    .card-imgx{
+        width: 110px;
+        height: 110px;
+    }
+    
+    .c-img div{
+        width: 70px;
+        height: 70px;
+    }
+    
+    .competences{
+        grid-template-columns: repeat(auto-fit, minmax(300px ,1fr))
+    
+    }
+
+    .card-imgx .text{
+        font-size: 16px;
+    }
+   
+    .card-imgx div{
+        width: 60px;
+        height: 60px;
+        margin: 0 auto;
+    }
+    
+}
+
+
 
 @media  screen and (min-width: 900px) {
     .about{
@@ -234,6 +291,14 @@ header{
     }
     .about img{
         border-radius: 0;
+    }
+
+    .about .imgx{
+        border-radius: 00%;
+    }
+
+    .about .imgx img{
+        bottom: 0;
     }
 }
 

@@ -9,15 +9,15 @@
                 <div class=" flex  pt-10 c-g-10">
                     <div class="card-imgx">
                         <div><img src="/images/html.png"  alt=""></div>
-                        <span class="fw-600">HTML 5</span>   
+                        <span class="text">HTML 5</span>   
                     </div>
                     <div class="card-imgx">
                         <div><img src="/images/css.png"  alt=""></div>
-                        <span class="fw-600">CSS</span>   
+                        <span class="text">CSS</span>   
                     </div>
                     <div class="card-imgx">
                         <div><img src="/images/js.png"  alt=""></div>
-                        <span class="fw-600">JavaScript</span>   
+                        <span class="text">JavaScript</span>   
                     </div>
                 </div>
             
@@ -25,11 +25,11 @@
                 <div class="flex  pt-10 c-g-10">
                     <div class="card-imgx">
                         <div><img src="/images/react.png"  alt=""></div>
-                        <span class="fw-600">React</span>   
+                        <span class="text">React</span>   
                     </div>
                     <div class="card-imgx">
                         <div><img src="/images/Vue.png"  alt=""></div>
-                        <span class="fw-600">VuesJs</span>   
+                        <span class="text">VuesJs</span>   
                     </div>
                 </div>
             
@@ -37,15 +37,15 @@
                 <div class="flex  pt-10 c-g-10">
                     <div class="card-imgx">
                         <div><img src="/images/php.png"  alt=""></div>
-                        <span class="fw-600">PHP</span>   
+                        <span class="text">PHP</span>   
                     </div>
                     <div class="card-imgx">
                         <div><img src="/images/synfony.png"  alt=""></div>
-                        <span class="fw-600">Symfony</span>   
+                        <span class="text">Symfony</span>   
                     </div>
                     <div class="card-imgx">
                         <div><img src="/images/laravel.png"  alt=""></div>
-                        <span class="fw-600">Laravel</span>   
+                        <span class="text">Laravel</span>   
                     </div>
                 </div>
             
@@ -53,15 +53,15 @@
                 <div class="flex  pt-10 c-g-10">
                     <div class="card-imgx">
                         <div><img src="/images/mysql.png"  alt=""></div>
-                        <span class="fw-600">MySQL</span>   
+                        <span class="text">MySQL</span>   
                     </div>
                     <div class="card-imgx">
                         <div><img src="/images/sass.png"  alt=""></div>
-                        <span class="fw-600">Sass</span>   
+                        <span class="text">Sass</span>   
                     </div>
                     <div class="card-imgx">
                         <div><img src="/images/git.png"  alt=""></div>
-                        <span class="fw-600">GIT</span>   
+                        <span class="text">GIT</span>   
                     </div>
                 </div>
               

@@ -3,6 +3,7 @@ import Upload from '../components/Upload.vue';
 import TextInput from '../components/TextInput.vue';
 import InputError from '../components/InputError.vue'
 import Copy from '../components/Copy.vue'
+import Gitub from '../components/icons/Gitub.vue';
 import { ref } from 'vue';
 
 const max = ref(270)
@@ -28,10 +29,11 @@ const valided =()=>{
     <div>
       <h1 class="c-p t-c"> ResizeImages</h1>
       <p>
-          Une solution qui vous permet de redimensionner les images et les affichées
+          Une bibliothèque Vuejs qui vous permet de redimensionner les images et les affichées
           coté client avant l'upload.
           Le redimensionnement se fait de maniere automatique suivant la <b>taille max</b> 
           afin de conserver le ratio de l'image.
+          Exemple : Pour une image de (1200x1600) avec une taille max de 270 l'image obtenu sera de (202x270).
          <div><b class="c-p">USAGE:</b> Chosisez un taille max (20 - 2000), ensuite selectionnez les images, enfin cliquez sur l'image pour l'aperçu.</div>
       </p>
        <div class="title pt-10">Personalisation</div>

@@ -14,7 +14,7 @@
                     <div><img src="/images/laravel.png" alt=""></div>
                 </div>
                 <h3>PHP Symfony & Laravel </h3>
-                <div class="pt-10"> Je développe  des applications php depuis plus de 3 ans et je maitrise ses frameworks Symfony et laravel.</div>
+                <div class="pt-10"> Je développe  des applications Php depuis plus de 3 ans et je maitrise ses frameworks Symfony et Laravel.</div>
             </div>
         
             <div class="card p-20">

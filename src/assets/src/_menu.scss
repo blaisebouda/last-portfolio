@@ -120,5 +120,10 @@ nav.active{
         padding: 10px 0px;
     }
 
-    
+}
+
+@media screen and (max-width: 900px) {
+    nav ul{
+        width: 80%;
+    }  
 }

@@ -14,7 +14,7 @@ const active = ref(false)
         </div>
         <nav :class="{'active': active}" @click="active=false">
             <ul>
-                <li><a class="active" href="#home">Acceuil</a></li>
+                <li><a class="active" href="#home">Accueil</a></li>
                 <li><a href="#about">A propos</a></li>
                 <li><a href="#competence">Compétence</a></li>
                 <li><a href="#technos">Technos</a></li>

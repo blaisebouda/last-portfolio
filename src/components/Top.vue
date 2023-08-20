@@ -5,10 +5,14 @@ const top = ref(null)
 onMounted(()=>{
     document.addEventListener('scroll',(e)=>{
        if(window.scrollY>300){
-           top.value.classList.add('visible');
+            if(top.value){
+                top.value.classList.add('visible');
+            }
            return
        }else{
-        top.value.classList.remove('visible');
+            if(top.value){
+                top.value.classList.remove('visible');
+            }
            return
        }
       
