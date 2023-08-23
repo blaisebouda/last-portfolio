@@ -4,10 +4,10 @@
         <div class="about br-10px">
             <div class="imgx"> <img src="/images/blaise.png" width="100%"  alt=""></div>
             <div>
-                Bonjour, je suis développeur web FULL-STACK avec trois ans d'expérience, passionné par la création d'application web robuste et innovante.
-                <p>Mon objectif est de créer des expériences utilisatrices simples et exceptionnelles en combinant ma créativité avec mes compétences solides.</p>
-                <p> J'apprends constamment de nouvelles technologies par des documentations, des formations en ligne afin de relever de nouveaux défis et evoluer en tant que profosionnel.</p>
-                <p> Merci de visiter mon portfolio. N'hésitez pas à me contacter pour en savoir plus.</p>
+                Bonjour, Fort de trois ans d’expérience en tant que développeur web FULL-STACK,  je suis passionné par la création d’application web à fois robustes et avant-gardistes. 
+                <p>Mon expertise m’a permis de concevoir des expériences utilisatrices fluides et mémorable, où ma créativité fusionne harmonieusement avec ma maîtrise technique.</p>
+                <p> Je m’investis continuellement dans l’apprentissage des nouvelles technologies à travers des documentations, des formations en lignes et présentiel. Ce n’est pas seulement une passion, c’est un engagement pour rester à la pointe et apporter le meilleur à mes clients.</p>
+                <p> Découvrez la qualité de mon travail en visitant mon portfolio. Je vous invite à chaleureusement à me contacter : discutons ensemble de la manière dont je peux apporter une valeur ajoutée à vos projets.</p>
             </div>
         </div>
     </div>
