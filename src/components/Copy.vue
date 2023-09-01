@@ -1,7 +1,7 @@
 <template>
 
     <div class="p-20 t-c copy">
-        Développer par Bouda • &copy; 2023
+        Développé par Bouda • &copy; 2023
     </div>
 
 </template>

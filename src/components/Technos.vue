@@ -48,6 +48,17 @@
                         <span class="text">Laravel</span>   
                     </div>
                 </div>
+
+                <div class="flex pt-10 c-g-10">
+                    <div class="card-imgx">
+                        <div><img src="/images/node.png"  alt=""></div>
+                        <span class="text">NodeJS</span>   
+                    </div>
+                    <div class="card-imgx">
+                        <div><img src="/images/adonis.png"  alt=""></div>
+                        <span class="text">AdonisJs</span>   
+                    </div>
+                </div>
             
                 <div class="c-title pt-30">Data base et autre</div>
                 <div class="flex  pt-10 c-g-10">

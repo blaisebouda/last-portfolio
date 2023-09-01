@@ -10,9 +10,9 @@ import Gitub from './icons/Gitub.vue';
         <div class="contact pt-30 ">
             <div class="card m-auto p-20">
                 <div class="center c-g-10">
-                    <div class="social center"> <a href="https://www.linkedin.com/in/blaise-bouda-55ab93249/"><Linked/> </a></div>
-                    <div class="social center"><a href="https://github.com/BlaiseBouda/"> <Gitub/> </a> </div>
-                    <div class="social center"> <a href="https://facebook.com/blaise.bouda.792"><Facebook/> </a></div>
+                    <div class="social center"> <a class="flex" href="https://www.linkedin.com/in/blaise-bouda-55ab93249/"><Linked/> </a></div>
+                    <div class="social center"><a class="flex" href="https://github.com/BlaiseBouda/"> <Gitub/> </a> </div>
+                    <div class="social center"> <a class="flex" href="https://facebook.com/blaise.bouda.792"><Facebook/> </a></div>
                 </div>
                 <div class="mail pt-20"> <a class="btn btn-primary c-g-10" href="mailto:blaisebouda05@gmail.com"><Mail/> Par Mail</a></div>
             </div>
