@@ -2,7 +2,7 @@
 
 Mon premier portfolio développé avec Vue.js 3 - Une vitrine de mes compétences et projets web - 2023.
 
-🔗 **[Voir le portfolio en ligne](https://blaisebouda.github.io/first-portfolio)**
+🔗 **[Voir le portfolio en ligne](https://ubiquitous-kheer-6b6b9d.netlify.app/#/)**
 
 ## 📋 Description
 
