@@ -85,26 +85,6 @@ git commit -m "votre message"
 npm run postgit
 ```
 
-## 📁 Structure du projet
-
-```
-first-portfolio/
-├── src/
-│   ├── assets/          # Ressources statiques (images, styles)
-│   ├── components/      # Composants Vue réutilisables
-│   ├── router/          # Configuration Vue Router
-│   ├── stores/          # Stores Pinia pour la gestion d'état
-│   ├── views/           # Pages/vues de l'application
-│   ├── App.vue          # Composant racine
-│   └── main.js          # Point d'entrée de l'application
-├── public/              # Fichiers publics statiques
-├── dist/                # Build de production (généré)
-├── node_modules/        # Dépendances (généré)
-├── index.html           # Template HTML principal
-├── package.json         # Configuration npm et scripts
-└── vite.config.js       # Configuration Vite
-```
-
 ## 🔧 Configuration
 
 ### Vue Router
